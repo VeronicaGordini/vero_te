@@ -1,0 +1,647 @@
+/*
+Theme Name: vero_te
+Theme URI: http://wordpress.org/extend/themes/twentyeleven
+Author: Veronica Gordini
+Author URI: http://wordpress.org/
+Description: This is Twenty Eleven Vero web Designer a child theme for Twenty Eleven
+Template: twentyeleven
+Version: 1.0
+
+*/
+
+
+@import url("../twentyeleven/style.css");
+
+/*REGOLE MODIFICATE DALL'ORIGINALE*/
+
+
+
+li{list-style:none}
+
+ul{margin: 0 0 0 0}
+
+a:focus, a:active,  a:hover{
+text-decoration:none}	
+p {margin-bottom: 0}
+
+body{
+ padding: 0 0;
+ color:black;
+ margin: 0 0}
+ 
+#page{
+ background: #496893;
+ margin: 0 auto;
+ padding: 0 0;
+ width:100%;
+ max-width:none;
+ }
+ 
+ .entry-meta {
+  color: #D9DAD5;
+  padding-top: 20px
+  
+  }
+  
+
+  .widget-title{
+  color: #D9DAD5;
+  font-size: 20px}
+  
+  .entry-meta a, .more-link, .widget a{
+   color: #1e3392}
+   
+   .entry-content{
+    padding-bottom: 10px;
+    
+   }
+ .hentry {
+  /*padding: 0 0 3px;*/
+   background: #DDDDDD;
+     padding: 24px;
+      border-radius: 10px 10px 10px 10px;
+      
+    
+  /*background: #616382;
+    color: #F6F6F6*/}
+  
+ #primary, #secondary{
+  padding-top: 260px}
+  
+  .cat-links{
+   padding-left: 350px}
+   
+   .commentlist > li.comment{
+          border-radius: 10px 10px 10px 10px;
+   }
+   
+   #respond{
+          border-radius: 10px 10px 10px 10px;}
+  
+  #respond textarea {
+   width: 95%;
+   height: 300px}
+   #respond input[type="text"]{
+    width: 50%}
+  #respond input[type="text"], #respond textarea {
+  
+  height: 28px;
+   background: #616382; 
+   border:  3px solid #59406a /*#8e447b*/;
+   color: white;}
+ #main{
+  padding: 0 0}
+  
+  
+  
+/*-----------------*/
+
+/*my style*/
+
+body{
+	font-family: 'Gloria Hallelujah';
+	
+	}
+
+#container{
+	background:url(images/cielo2.png) repeat-x;
+	
+	margin: 0 auto;
+	position:relative;}
+	
+	
+/*header*/	
+	
+/*#header{
+	
+	width:100%;
+	position: fixed;
+	top: 0;
+	height: 238px;
+	z-index: 1000;
+}*/
+
+#branding {
+	border-top: 0;
+	padding-bottom: 0;
+	width:100%;
+	top: 0;
+	height: 238px;
+	position: fixed;
+	z-index: 9999;
+}
+
+#logo_nav{
+	background: url(images/s_logonav.png) no-repeat top left ;
+	width: 960px;
+	height:238px;
+	margin: 0 auto;
+	z-index:1000}
+	
+#logo{
+	
+	width:100%;
+	height:146px;}
+	
+/*nav-------------------------*/
+	
+	#access_pagine{
+ position: absolute;
+ font-size: 35px;
+ right: 135px;
+ top:130px;
+ }	
+#access_pagine a{
+ color: white}
+ 
+#nav{
+	height:92px;
+	padding-left:216px;
+	
+	 }
+#nav li{
+	float:left;
+	height:92px;
+	width:140px}
+	
+#nav a {
+	display:block;
+	width:140px;
+	height:92px;}
+	
+
+#nav #homei {
+	
+	background-image:url(images/h.png);
+	}
+
+	
+
+	
+	#nav #cosafaccioi{
+	
+	background-image:url(images/cf.png);
+	}
+	
+	
+	
+
+	
+	#nav #mieilavorii {
+	
+	background-image:url(images/ml.png);
+	}
+
+	
+	#nav #contattii {
+	
+	background-image: url(images/c.png);
+	}
+	
+	
+
+	
+	#nav #blogi {
+	
+	background-image:url(images/b.png);
+	}
+   
+	
+	#nav a { background-position: 0 0; }
+	#nav a:hover, #nav a.icona { background-position: 0 -92px; }
+	
+	
+/*face*/
+
+#face{
+	background:url(images/face.png) top left no-repeat;
+	position:fixed;
+	top: 120px;
+	width:207px;
+	height:310px;
+	left:50%;  
+	margin-left: -500px;
+	}
+	
+/*----------------------------------------panel*/
+
+.panel{
+	height: 360px;
+		padding-top: 240px;
+	}
+	
+	
+
+	
+/*---------------------------content*/
+
+.content{
+	position: relative;
+	padding: 10px 0 0 207px;
+	width:753px;
+	margin: 0 auto;
+	font-size: 19px}
+	
+	h1{
+		position: absolute;
+		left: -2000px; }
+	
+	
+/*content_home*/
+
+#bio{
+	width: 474px;
+	line-height: 25px;
+	font-size: 19px;
+	height: 200px;
+	
+	
+	}
+	
+	
+.s123{
+	float: left;
+	width: 251px;
+	height: 70px}
+	
+#s1{
+	background: url(images/s1.png ) no-repeat
+	}
+#s2{
+	background: url(images/s2.png ) no-repeat
+	}
+#s3{
+	background: url(images/s3.png ) no-repeat
+	}
+	
+.s4bio5	{
+	float: left;
+	width: 139px;
+	height: 200px
+}
+
+#s4{
+	background: url(images/s4.png ) no-repeat
+	}
+#s5{
+	background: url(images/s5.png ) no-repeat
+	}
+
+
+	
+.s67{
+	float: left;
+	width: 376px;
+	height: 66px}
+	
+#s6{
+	background: url(images/s6.png ) no-repeat
+	}
+#s7{
+	background: url(images/s7.png ) no-repeat
+ }
+	
+/*content_mieilaovri*/
+
+#content_mieilavori a {
+	display:block;
+	width:300px;
+	height:304px;}
+	
+#fp{
+	background:url(images/lavori/photo_fp.png) no-repeat left top}
+	
+/*blog*/
+
+
+#content_blog a {
+ position: absolute;
+ right: 0;
+ top: 300px;
+ color: white} 
+ 
+ #content_blog h2{
+  color: white;
+  font-weight: bold} 
+  
+  #content_blog ul {
+  padding-bottom: 10 px;}
+ 
+.lista_eventi{
+ width: 230px;
+ padding: 0 21px 0 0;
+ height: 200px;
+ float: right;
+ overflow: hidden;}	
+	
+
+/*content_contatti*/
+
+#contatti{
+	height: 450px}
+
+input, textarea{
+	width: 438px}
+#content_contatti {
+	}
+
+#content_contatti ul{
+	padding-left: 156px}
+	
+#content_contatti p{
+	padding-left: 100px}
+	
+
+
+
+.titolo{
+	width: 432px;
+	padding: 10px 0 10px 0;
+	text-align:center;
+	
+	}
+	
+	
+.campo{
+	background: #616382; 
+	height: 28px ;
+	border:  3px solid #8e447b;
+	color: white;
+	font-size: 18px;
+	border-radius: 5px;
+	
+}
+
+#campo1, #campo2{
+   background: #616382; 
+   border:  3px solid #8e447b;
+   color: white;
+ }
+	
+#t_area{
+	height:56px;
+	width:435px;
+	margin:0;
+	overflow: hidden;
+	resize:none}
+	
+#but{
+ width: 444px;
+
+ height: 35px;
+ border-radius: 5px;
+ border: solid 3px  #8e447b;
+ font-family: 'Gloria Hallelujah';
+ font-size: 18px }
+ 
+#but:hover{
+	background: white}
+	
+#modulo label.error {
+	font-family:Georgia, "Times New Roman", sans-serif;
+	color:white;
+	font-style:italic;
+	font-size: 12px;
+	padding-left: 10px;
+	}
+	
+#modulo  input.error, textarea.error {
+	border: 2px solid white}
+	
+	
+/*content_cosafaccio*/
+
+.cosaf{
+	height: 180px}
+	
+.riquadro{
+	float: left;
+	width: 376px;
+	height: 180px;}
+	
+.riquadro p{
+	text-align:center;
+	line-height:25px;}
+	
+#siti{
+	background: url(images/siti.png) no-repeat left top;
+}
+
+#siti p{
+	padding: 60px 0 0 240px}
+
+#smart_tablet{
+	background:url(images/tablet_smart.png) no-repeat left top ;
+	}
+	
+#smart_tablet p{
+	
+	padding: 88px 0 0 90px;
+	}
+	
+#tv{
+	background:url(images/tv.png) no-repeat left top;
+	}
+	
+#tv p{
+	padding: 30px 0 0 0;
+	
+	width: 164px
+	}
+
+	
+#logo_vg{
+	
+	background:url(images/logo_vg.png) no-repeat left top;
+	}
+	
+#logo_vg p{
+	width: 150px;
+	padding-top:68px
+	}
+	
+/*content_blog*/
+
+#content_blog{
+	padding-top: 40px;
+	}
+	
+#pagina{
+	background:url(images/blog.png) no-repeat;
+	
+	margin: 0 auto;
+	width: 348px;
+	height:192px;
+	}	
+	
+/*footer*/
+
+#footer{
+	background: url(images/footer.png) repeat-x  bottom /*#6d9bc2*/ ;
+	height: 360px;
+	padding-top: 240px;
+	width:100%;
+	
+	z-index:1000;}
+
+
+	
+#social {
+	position:relative;
+	width: 960px;
+	margin:0 auto;
+}
+
+.analisi{
+	position:absolute;
+	float: left;
+	}		
+	
+ #like {
+	width: 100px;}
+
+#share{
+
+	width: 410px;
+	right:0
+	
+	}
+
+	
+#mail_social_link{
+	position: relative;
+	padding-top: 80px;
+	width: 960px;
+	height: 258px;
+	margin: 0 auto;
+	color:white;
+	font-size: 17px;
+	font-weight:bold;
+	z-index: 1000
+	
+	}
+#mail_social_link a{
+	color:white;
+	}
+	
+#mymail, #mysocial, #mylink{
+	float: left;
+	position:relative;
+	height: 250px;}
+	
+/*mymail*/
+	
+#mymail{
+		
+		width:390px;
+}
+
+
+
+#buca{
+background: url(images/buca.png) top right no-repeat ;
+	width: 265px;
+	height:205px;
+	position: absolute;
+	top:0;
+	right:0;
+	text-align:center;
+	padding-top: 45px}	 
+	
+#buca p{
+	margin: 0 10px;
+	padding-bottom: 5px;
+	border-bottom:solid 1px #72a0c7;
+	}
+
+
+/*mysocial*/
+
+#mysocial ul{
+	position:absolute;
+	bottom:0}
+	    	
+#mysocial{
+	
+	width: 223px}
+		
+#mysocial li{
+	
+	float:left;
+	height: 125px;
+	width:111px;
+	}
+	
+#mysocial a {
+	display:block;
+	width:111px;
+	}
+	
+
+#fb{
+	height:107px;
+	background: url(images/f3.png) no-repeat 0 0 }
+	
+#fb:hover{
+	background: url(images/f3.png) no-repeat  0 -125px }
+	
+#tw{
+	height: 125px;
+	background: url(images/t3.png) no-repeat 0 0}
+#tw:hover{
+	background:url(images/t3.png) no-repeat 0 -125px }
+	
+
+	
+	
+/*mylink*/
+	
+#mylink{
+	background: url(images/link2.png) top right no-repeat;
+	width:347px}
+	
+#mylink p{
+	padding: 10px 0 5px 0;
+	border-bottom: 1 px solid #69F;
+	
+	}
+ #mylink li{
+	 padding-bottom: 5px;
+	 margin: 0 20px;
+	 border-bottom: 1px solid #72a0c7}
+
+#cartello{
+	position: absolute;
+	top:0;
+	left:0;
+	width: 272px;
+	height: 90px;
+	text-align: center;
+	}
+	
+#cartello a{
+	color: #d9dad5}
+	
+#cartello p{
+	margin: 0 20px;
+	padding-bottom: 5px;
+	border-bottom:solid 1px #72a0c7}
+		
+#mymail #buca a{
+	color: #d9dad5
+	}	
+	
+#mymail #buca a {
+	margin: 0 2px;
+	border-bottom: solid 1px #72a0c7}	
+	
+ #cartello a:hover{
+	color: white}
+	
+#mymail #buca a:hover{
+	color: white}
+	
+#mymail, #mylink{
+	
+	line-height: 1; 
+}
